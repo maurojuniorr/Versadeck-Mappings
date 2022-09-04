@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="1.8.0" schemaVersion="1">
+    <info>
+        <name>LED Test mapping</name>
+        <author>Anders Gunnarsson</author>
+        <description>Test how to turn LEDs on and of on your controller.</description>
+    </info>
+    <controller id="LED">
+        <scriptfiles>
+            <file filename="LED-Test-scripts.js" functionprefix="LEDTest"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group>[Channel1]</group>
+                <key>LEDTest.setLed</key>
+                <status>0xB0</status>
+                <midino>0x10</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LEDTest.toggleControlValue</key>
+                <status>0x90</status>
+                <midino>0x20</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
