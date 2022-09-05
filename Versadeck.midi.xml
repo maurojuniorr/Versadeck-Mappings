@@ -19,6 +19,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel2]</group>
                 <key>LoadSelectedTrack</key>
                 <description>MIDI Learned from 2 messages.</description>
@@ -45,7 +55,7 @@
                 <status>0x92</status>
                 <midino>0x02</midino>
                 <options>
-                    <normal/>
+                    <button/>
                 </options>
             </control>
             <control>
@@ -65,7 +75,7 @@
                 <status>0x92</status>
                 <midino>0x03</midino>
                 <options>
-                    <normal/>
+                    <button/>
                 </options>
             </control>
             <control>
@@ -85,7 +95,7 @@
                 <status>0x92</status>
                 <midino>0x04</midino>
                 <options>
-                    <normal/>
+                    <button/>
                 </options>
             </control>
             <control>
@@ -129,11 +139,135 @@
                 </options>
             </control>
             <control>
+                <group>[Channel1]</group>
+                <key>hotcue_1_activate</key>
+                <description>MIDI Learned from 16 messages.</description>
+                <status>0x90</status>
+                <midino>0x08</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_1_activate</key>
                 <description>MIDI Learned from 16 messages.</description>
                 <status>0x92</status>
                 <midino>0x08</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_2_activate</key>
+                <status>0x90</status>
+                <midino>0x09</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_2_activate</key>
+                <status>0x92</status>
+                <midino>0x09</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_3_activate</key>
+                <status>0x90</status>
+                <midino>0x0A</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_3_activate</key>
+                <status>0x92</status>
+                <midino>0x0A</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_4_activate</key>
+                <status>0x90</status>
+                <midino>0x0B</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_4_activate</key>
+                <status>0x92</status>
+                <midino>0x0B</midino>
+                <options>
+                    <button/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beats_translate_curpos</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x0D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beats_translate_curpos</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x0D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>group_[Channel1]_enable</key>
+                <description>MIDI Learned from 6 messages.</description>
+                <status>0x90</status>
+                <midino>0x0E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>group_[Channel2]_enable</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x0E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1_Effect1]</group>
+                <key>enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x0F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1_Effect2]</group>
+                <key>enabled</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x92</status>
+                <midino>0x10</midino>
                 <options>
                     <normal/>
                 </options>
@@ -169,6 +303,16 @@
                 </options>
             </control>
             <control>
+                <group>[EffectRack1_EffectUnit1_Effect3]</group>
+                <key>enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x12</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[EqualizerRack1_[Channel1]_Effect1]</group>
                 <key>parameter3</key>
                 <description>MIDI Learned from 190 messages.</description>
@@ -184,6 +328,26 @@
                 <description>MIDI Learned from 214 messages.</description>
                 <status>0xB0</status>
                 <midino>0x13</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>group_[Channel1]_enable</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x14</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>group_[Channel2]_enable</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x14</midino>
                 <options>
                     <normal/>
                 </options>
@@ -299,6 +463,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel2]</group>
+                <key>slip_enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x19</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel1]</group>
                 <key>repeat</key>
                 <description>MIDI Learned from 2 messages.</description>
@@ -360,22 +534,22 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>cue_cdj</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x90</status>
-                <midino>0x1F</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
                 <key>cue_default</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x1F</midino>
                 <options>
                     <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>cue_cdj</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x92</status>
+                <midino>0x1F</midino>
+                <options>
+                    <button/>
                 </options>
             </control>
             <control>
@@ -421,7 +595,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>sync_enabled</key>
-                <description>MIDI Learned from 2 messages.</description>
+                <description>MIDI Learned from 24 messages.</description>
                 <status>0x92</status>
                 <midino>0x21</midino>
                 <options>
@@ -629,16 +803,6 @@
                 </options>
             </control>
             <control>
-                <group>[QuickEffectRack1_[Channel1]]</group>
-                <key>super1</key>
-                <description>MIDI Learned from 332 messages.</description>
-                <status>0xB1</status>
-                <midino>0x32</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Master]</group>
                 <key>headGain</key>
                 <description>MIDI Learned from 287 messages.</description>
@@ -654,6 +818,115 @@
                 <description>MIDI Learned from 253 messages.</description>
                 <status>0xB1</status>
                 <midino>0x34</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_1_clear</key>
+                <status>0x90</status>
+                <midino>0x47</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_1_clear</key>
+                <status>0x92</status>
+                <midino>0x47</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_2_clear</key>
+                <status>0x90</status>
+                <midino>0x48</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_2_clear</key>
+                <status>0x92</status>
+                <midino>0x48</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_3_clear</key>
+                <status>0x90</status>
+                <midino>0x49</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_3_clear</key>
+                <status>0x92</status>
+                <midino>0x49</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_4_clear</key>
+                <status>0x90</status>
+                <midino>0x4A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_4_clear</key>
+                <status>0x92</status>
+                <midino>0x4A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2_Effect1]</group>
+                <key>enabled</key>
+                <status>0x92</status>
+                <midino>0x4E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[QuickEffectRack1_[Channel1]]</group>
+                <key>super1</key>
+                <description>MIDI Learned from 332 messages.</description>
+                <status>0xB0</status>
+                <midino>0x53</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[QuickEffectRack1_[Channel2]]</group>
+                <key>super1</key>
+                <description>MIDI Learned from 60 messages.</description>
+                <status>0xB2</status>
+                <midino>0x63</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key></key>
+                <status>0x00</status>
                 <options>
                     <normal/>
                 </options>
@@ -680,52 +953,12 @@
         <outputs>
             <output>
                 <group>[Channel1]</group>
-                <key>VuMeterL</key>
-                <status>0xB0</status>
-                <midino>0x77</midino>
-                <on>0x0c</on>
-                <off>0x17</off>
-                <minimum>0.2</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>VuMeterL</key>
-                <status>0xB0</status>
-                <midino>0x1</midino>
+                <key>VuMeter</key>
+                <status>0x92</status>
+                <midino>0x01</midino>
                 <on>0x01</on>
-                <minimum>0.92</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>VuMeterL</key>
-                <status>0xB0</status>
-                <midino>0x57</midino>
-                <on>0x01</on>
-                <minimum>0.85</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>VuMeterL</key>
-                <status>0xB0</status>
-                <midino>0x56</midino>
-                <on>0x01</on>
-                <minimum>0.75</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>VuMeterL</key>
-                <status>0xB0</status>
-                <midino>0x55</midino>
-                <on>0x01</on>
-                <minimum>0.6</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>VuMeterL</key>
-                <status>0x90</status>
-                <midino>0x55</midino>
-                <on>0x01</on>
-                <minimum>0.4</minimum>
+                <off>0x7F</off>
+                <maximum>0</maximum>
             </output>
             <output>
                 <group>[Channel1]</group>
@@ -738,11 +971,80 @@
             </output>
             <output>
                 <group>[Channel1]</group>
-                <key>cue_cdj</key>
+                <key>cue_default</key>
                 <status>0x90</status>
                 <midino>0x1F</midino>
                 <on>0x01</on>
-                <minimum>0.5</minimum>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>cue_play</key>
+                <status>0x90</status>
+                <midino>0x1E</midino>
+                <on>0x01</on>
+                <maximum>0</maximum>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_1_enabled</key>
+                <status>0x90</status>
+                <midino>0x08</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_2_enabled</key>
+                <status>0x90</status>
+                <midino>0x09</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_3_enabled</key>
+                <status>0x90</status>
+                <midino>0x0A</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_4_enabled</key>
+                <status>0x90</status>
+                <midino>0x0B</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>keylock</key>
+                <status>0x90</status>
+                <midino>0x1D</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>keylock</key>
+                <status>0x90</status>
+                <midino>0x1D</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>pfl</key>
+                <status>0x90</status>
+                <midino>0x06</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
             </output>
             <output>
                 <group>[Channel1]</group>
@@ -753,6 +1055,21 @@
                 <minimum>0.5</minimum>
             </output>
             <output>
+                <group>[Channel1]</group>
+                <key>quantize</key>
+                <status>0x90</status>
+                <midino>0x18</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>reloop_toggle</key>
+                <status>0x90</status>
+                <midino>0x04</midino>
+                <minimum>1</minimum>
+            </output>
+            <output>
                 <group>[Channel2]</group>
                 <key>beat_active</key>
                 <description>MIDI Learned from 3 messages.</description>
@@ -760,6 +1077,170 @@
                 <midino>0x21</midino>
                 <on>0x01</on>
                 <minimum>0.2</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>cue_cdj</key>
+                <status>0x92</status>
+                <midino>0x1F</midino>
+                <on>0x01</on>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>cue_play</key>
+                <status>0x92</status>
+                <midino>0x1E</midino>
+                <on>0x01</on>
+                <maximum>0.2</maximum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_1_enabled</key>
+                <status>0x92</status>
+                <midino>0x08</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_2_enabled</key>
+                <status>0x92</status>
+                <midino>0x09</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_3_enabled</key>
+                <status>0x92</status>
+                <midino>0x0A</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_4_enabled</key>
+                <status>0x92</status>
+                <midino>0x0B</midino>
+                <on>0x01</on>
+                <off>0x32</off>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>loop_in</key>
+                <status>0x92</status>
+                <midino>0x02</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>loop_out</key>
+                <status>0x92</status>
+                <midino>0x03</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>pfl</key>
+                <status>0x92</status>
+                <midino>0x06</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <status>0x92</status>
+                <midino>0x20</midino>
+                <on>0x01</on>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>quantize</key>
+                <status>0x92</status>
+                <midino>0x18</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>reloop_toggle</key>
+                <status>0x92</status>
+                <midino>0x04</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>group_[Channel1]_enable</key>
+                <status>0x90</status>
+                <midino>0x0E</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>group_[Channel2]_enable</key>
+                <status>0x92</status>
+                <midino>0x0E</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit1_Effect1]</group>
+                <key>enabled</key>
+                <status>0x92</status>
+                <midino>0x0F</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit1_Effect2]</group>
+                <key>enabled</key>
+                <status>0x92</status>
+                <midino>0x10</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit1_Effect3]</group>
+                <key>enabled</key>
+                <status>0x92</status>
+                <midino>0x12</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>group_[Channel1]_enable</key>
+                <status>0x90</status>
+                <midino>0x14</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>group_[Channel2]_enable</key>
+                <status>0x92</status>
+                <midino>0x14</midino>
+                <on>0x01</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[EffectRack1_EffectUnit2_Effect1]</group>
+                <key>enabled</key>
+                <status>0x92</status>
+                <midino>0x4E</midino>
+                <on>0x01</on>
+                <maximum>0</maximum>
             </output>
         </outputs>
     </controller>
